@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background-color: #e4e2e2;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sideBar-bg {
+  background-color: #33074f;
+}
+
+.sideBar-sb {
+  background-color: rgba(235, 230, 237, 0.1);
+}
