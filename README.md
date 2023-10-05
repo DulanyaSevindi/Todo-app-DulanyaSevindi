@@ -35,21 +35,22 @@ This will launch the app in development mode. Open http://localhost:3000 to view
 ## Project Structure
 
 /src
-  /assets
-  /Components
-     ActivityComponent.tsx
-     BannerComponent.tsx
-     HeaderNavigation.tsx
-     SidebarNavigation.tsx
-     TaskComponent.tsx
-     TasksPrioritesComponents.tsx
-  /models
-     task.ts
-  /Pages
-     dashboard.tsx
-     home.tsx
-  App.test.tsx
-  App.tsx
-  App.js
-  index.css
-  index.tsx
+  ├── /components
+  │   ├── ActivityComponent.tsx
+  │   ├── BannerComponent.tsx
+  │   |── HeaderNavigation.tsx
+  │   |── SidebarNavigation.tsx
+  │   |── TaskComponent.tsx
+  │   └── TasksPrioritesComponents.tsx
+  |    
+  ├── /models
+  │   └── task.ts
+  ├── /Pages
+  │   ├── dashboard.tsx
+  │   └── home.tsx
+  ├── App.test.tsx
+  ├── App.tsx
+  ├── App.js
+  ├── index.css
+  └── index.css
+
